@@ -1,14 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { LoginPage } from './features/auth/pages/LoginPage'
-import { SignupPage } from './features/auth/pages/SignupPage'
+import { AppRouter } from './app/router'
 
 export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/cadastro" element={<SignupPage />} />
-      </Routes>
-    </BrowserRouter>
-  )
+  return <AppRouter />
 }

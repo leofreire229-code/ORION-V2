@@ -150,3 +150,16 @@
     cursor: pointer;
     padding: 0;
 }
+
+.errorMessage {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #b42318;
+  text-align: center;
+}
+
+.button:disabled,
+.googleButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

@@ -42,8 +42,9 @@ export function LoginForm() {
           Entrar
         </button>
 
-        <button type="button" className={styles.secondaryButton}>
-          Entrar com Magic Link
+        <button type="button" className={styles.googleButton}>
+          <span className={styles.googleIcon} aria-hidden="true">G</span>
+          <span>Continuar com Google</span>
         </button>
       </form>
 
